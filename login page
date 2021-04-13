@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	    <title>Responsive Login page</title>
+	    <link rel="stylesheet" type="text/css" href="loginPage.css">
+    </head>
+
+    <body>
+	    <div class="login-form">
+		    <h1>Login</h1>
+		    <div class="container">
+		        <div class="main">
+		            <div class="content">
+		                <h2>Log In</h2>
+		                <form action="" method="post">
+			                <input type="text" name="name" placeholder="User Name" required autofocus=""><br>
+                           <br> <input type="password" name="pwd" placeholder="User Password" required autofocus=""><br>
+                            <br> <button class="btn" type="submit">Log In</button>
+		                </form>
+                        <p class="account">Dont't have an account? <a href="#"> Register</a></p>
+		            </div>
+
+                    <div class="form-img">
+                        <img src="1.jpeg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
